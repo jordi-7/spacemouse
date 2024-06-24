@@ -89,7 +89,7 @@
 
 // Insert measured Values like this: {AX,AY,BX,BY,CY,CY,DX,DY}.
 #define MINVALS {-515, -514, -501, -499, -513, -513, -505, -498}
-#define MAXVALS {508, 509, 522, 524, 510, 510, 518, 525}
+#define MAXVALS {508, 509, 522, 525, 510, 510, 518, 526}
 
 // Fourth calibration: Sensitivity
 // Independent sensitivity multiplier for each axis movement. Use degbug mode 4 or use for example your cad program to verify changes.
