@@ -1,4 +1,5 @@
 // Every file (except, "config_sample.h") will be ignored by git!
+config*.h
 .pio
 .vscode
 .idea
