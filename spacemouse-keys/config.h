@@ -105,18 +105,18 @@
 //  6. You have finished sensitivity calibration. You can now test your spacemouse with your favorite program (e.g. Cad software, Slicer)
 //  7. Aftermath: You notice the movements are hard to control. Try using Modification Functions (have a look at the beginning of the sketch) [I like level 3 the most. Experiment to find your favorite function]
 
-#define TRANSX_SENSITIVITY 2
-#define TRANSY_SENSITIVITY 2
-#define POS_TRANSZ_SENSITIVITY 0.5
-#define NEG_TRANSZ_SENSITIVITY 3  //I want low sensitiviy for down, therefore a high value.
-#define GATE_NEG_TRANSZ 15        // gate value, which negative z movements will be ignored (like an additional deadzone for -z).
-#define GATE_ROTX 15              // Value under which rotX values will be forced to zero
-#define GATE_ROTY 15              // Value under which roty values will be forced to zero
-#define GATE_ROTZ 15              // Value under which rotz values will be forced to zero
+#define TRANSX_SENSITIVITY 5
+#define TRANSY_SENSITIVITY 5
+#define POS_TRANSZ_SENSITIVITY 3.5
+#define NEG_TRANSZ_SENSITIVITY 6  //I want low sensitiviy for down, therefore a high value.
+#define GATE_NEG_TRANSZ 18        // gate value, which negative z movements will be ignored (like an additional deadzone for -z).
+#define GATE_ROTX 18              // Value under which rotX values will be forced to zero
+#define GATE_ROTY 18              // Value under which roty values will be forced to zero
+#define GATE_ROTZ 18              // Value under which rotz values will be forced to zero
 
-#define ROTX_SENSITIVITY 1.5
-#define ROTY_SENSITIVITY 1.5
-#define ROTZ_SENSITIVITY 2
+#define ROTX_SENSITIVITY 4.5
+#define ROTY_SENSITIVITY 4.5
+#define ROTZ_SENSITIVITY 5
 
 // Modifier Function
 // Modify resulting behaviour of spacemouse outputs the suppres small movements around zero and enforce big movements even more.
